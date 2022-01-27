@@ -4,26 +4,26 @@ const DUMMY_USERS = {
   // ignore: unnecessary_const
   '1': const User(
       id: '1',
-      name: 'Maria',
-      email: 'maria@aluno.com.br',
-      urlAvatar:'https://cdn.pixabay.com/photo/2016/08/20/05/36/avatar-1606914_960_720.png'),
+      name: 'Jinx',
+      email: 'jinx@arcane.com.br',
+      urlAvatar:'https://i.pinimg.com/564x/c0/d8/57/c0d857bc520d6119057455ae960648c2.jpg'),
   // ignore: unnecessary_const
   '2': const User(
       id: '2',
-      name: 'Rafael',
-      email: 'rafael@aluno.com.br',
-      urlAvatar: 'https://cdn.pixabay.com/photo/2016/11/18/23/38/child-1837375_960_720.png'),
+      name: 'Violet',
+      email: 'violet@arcane.com.br',
+      urlAvatar: 'http://pm1.narvii.com/8127/eec48c03097f84d2465160768a46fd51c64bbf4cr1-400-400v2_uhq.jpg'),
   // ignore: unnecessary_const
   '3': const User(
       id: '3',
-      name: 'Fernando',
-      email: 'fernado@aluno.com',
-      urlAvatar: 'https://cdn.pixabay.com/photo/2016/08/20/05/38/avatar-1606916_960_720.png'),
+      name: 'Caitlyn',
+      email: 'caitlyn@arcane.com',
+      urlAvatar: 'https://i.pinimg.com/564x/fd/1a/3b/fd1a3b212b3d9fab44657fa9a1698841.jpg'),
       // ignore: unnecessary_const
       '4': const User(
       id: '4',
-      name: 'Ana',
-      email: 'ana@aluno.com',
-      urlAvatar: ''
+      name: 'Ekko',
+      email: 'Ekko@arcane.com',
+      urlAvatar: 'https://i.pinimg.com/564x/1d/d7/75/1dd775d4716c0349767bb0bab90f96f5.jpg'
       ),
 };

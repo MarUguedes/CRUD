@@ -1,3 +1,5 @@
+// ignore_for_file: unnecessary_new, prefer_const_constructors
+
 import 'package:cadastro_usuario/provider/user.dart';
 import 'package:cadastro_usuario/routes/app.routes.dart';
 import 'package:cadastro_usuario/views/user_form.dart';

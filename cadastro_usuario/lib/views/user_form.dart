@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:cadastro_usuario/models/user.dart';
 import 'package:cadastro_usuario/provider/user.dart';
 import 'package:provider/provider.dart';
