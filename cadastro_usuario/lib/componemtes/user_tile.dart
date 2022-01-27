@@ -1,3 +1,5 @@
+// ignore_for_file: use_key_in_widget_constructors, prefer_const_constructors
+
 import 'package:cadastro_usuario/models/user.dart';
 import 'package:cadastro_usuario/provider/user.dart';
 import 'package:cadastro_usuario/routes/app.routes.dart';
@@ -37,7 +39,29 @@ class UserTile extends StatelessWidget {
               icon: Icon(Icons.delete),
               color: Colors.red,
               onPressed: () {
-                Provider.of<Users>(context,listen: false).remove(user);
+                showDialog(
+                  context: context,
+                  builder: (ctx) => AlertDialog(
+                    title: Text('Excluir usuário'),
+                    content: Text('Tem certeza?'),
+                    actions: <Widget>[
+                      FlatButton(
+                        onPressed: () {
+                          Navigator.of(context).pop();
+                        },
+                        child: Text('Não'),
+                      ),
+                      FlatButton(
+                        onPressed: () {
+                          Provider.of<Users>(context, listen: false)
+                              .remove(user);
+                          Navigator.of(context).pop();
+                        },
+                        child: Text('Sim'),
+                      )
+                    ],
+                  ),
+                );
               },
             ),
           ],
