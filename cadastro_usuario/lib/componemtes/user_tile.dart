@@ -22,7 +22,7 @@ class UserTile extends StatelessWidget {
       trailing: Container(
         width: 100,
         child: Row(
-          children: [
+          children: <Widget>[
             IconButton(
               icon: Icon(Icons.edit),
               color: Colors.grey,
@@ -37,35 +37,9 @@ class UserTile extends StatelessWidget {
               icon: Icon(Icons.delete),
               color: Colors.red,
               onPressed: () {
-                showDialog(
-                  context: context,
-                  builder: (ctx) => AlertDialog(
-                    title: Text('Excluir usuário'),
-                    content: Text('Tem certeza?'),
-                    actions: <Widget>[
-                      FlatButton(
-                        child: Text('Não'),
-                        onPressed: () =>
-                          Navigator.of(context).pop(false)
-                        ,
-                      ),
-                      FlatButton(
-                        child: Text('Sim'),
-                        onPressed: () =>
-                          Navigator.of(context).pop(true)
-                        ,
-                      )
-                    ],
-                  ),
-                ).then((confirmed) {
-                  if (confirmed) {
-                    Provider.of<Users>(context).remove(user);
-                  }
-                });
-
-                Provider.of<Users>(context, listen: false).remove(user);
+                Provider.of<Users>(context,listen: false).remove(user);
               },
-            )
+            ),
           ],
         ),
       ),
