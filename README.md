@@ -3,6 +3,13 @@
 Essa é uma aplicação feita em flutter para armazenar dados cadastrais de usuário como nome e email e que pode ser personalizada com avatar. 
 O app foi feito com o apoio do curso Cod3r, para explorar os conceitos CRUD de lista.
 
-![WhatsApp Image 2022-01-27 at 14 47 34](https://user-images.githubusercontent.com/88554358/151454265-737ee21d-2ac3-4359-b7a0-9867e36d5168.jpeg) ![WhatsApp Image 2022-01-27 at 14 48 37](https://user-images.githubusercontent.com/88554358/151454345-50220bdc-983d-450a-bb41-5c6393c7c0bf.jpeg)
+<div align="center"><img src="https://user-images.githubusercontent.com/88554358/151458159-5a1b2adc-7943-4465-9d94-6d5f71a7dc01.jpeg" width="650px" />
+  </div>
+  <div align="center"><img src="https://user-images.githubusercontent.com/88554358/151458193-3432368a-2759-4860-801b-119bc4c60cc7.jpeg" width="650px" />
+  </div>
+  <div align="center"><img src="https://user-images.githubusercontent.com/88554358/151458219-6045e7e2-3615-400b-8201-91912d5f4763.jpeg" width="650px" />
+  </div>
+  <div align="center"><img src="https://user-images.githubusercontent.com/88554358/151458240-fe9a3c22-a445-463e-af3a-fbc0f86ba2ae.jpeg" width="650px" />
+  </div>
+  
 
-![WhatsApp Image 2022-01-27 at 14 49 11](https://user-images.githubusercontent.com/88554358/151454429-38a73ab6-3e02-4b27-bb51-ac3e466d67d9.jpeg) ![WhatsApp Image 2022-01-27 at 14 48 09](https://user-images.githubusercontent.com/88554358/151454455-25a6a698-3e27-428a-8efc-deaf7fdc2bb8.jpeg)
