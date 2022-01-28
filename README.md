@@ -3,13 +3,16 @@
 Essa é uma aplicação feita em flutter para armazenar dados cadastrais de usuário como nome e email e que pode ser personalizada com avatar. 
 O app foi feito com o apoio do curso Cod3r, para explorar os conceitos CRUD de lista.
 
-<div align="center"><img src="https://user-images.githubusercontent.com/88554358/151458159-5a1b2adc-7943-4465-9d94-6d5f71a7dc01.jpeg" width="650px" />
+<div align="center"><img src="https://user-images.githubusercontent.com/88554358/151474990-6f101f29-3aa0-4b66-a0a0-c5a925c5f94c.jpeg" width="650px" />
   </div>
-  <div align="center"><img src="https://user-images.githubusercontent.com/88554358/151458193-3432368a-2759-4860-801b-119bc4c60cc7.jpeg" width="650px" />
+  <div align="center"><img src="https://user-images.githubusercontent.com/88554358/151475037-2a2e4545-3cf4-4ea6-904d-4d05911a64a6.jpeg" width="650px" />
   </div>
-  <div align="center"><img src="https://user-images.githubusercontent.com/88554358/151458219-6045e7e2-3615-400b-8201-91912d5f4763.jpeg" width="650px" />
+  <div align="center"><img src="https://user-images.githubusercontent.com/88554358/151475083-80ef4d85-266b-4993-9998-0cb5f7bef22a.jpeg" width="650px" />
   </div>
-  <div align="center"><img src="https://user-images.githubusercontent.com/88554358/151458240-fe9a3c22-a445-463e-af3a-fbc0f86ba2ae.jpeg" width="650px" />
+  <div align="center"><img src="https://user-images.githubusercontent.com/88554358/151475077-b522d1a1-4be4-4898-971d-db7b3f31f5d3.jpeg" width="650px" />
   </div>
+  <div align="center"><img src="https://user-images.githubusercontent.com/88554358/151475137-72c0294d-6ef8-4b14-baad-97fd3a8017b7.jpeg" width="650px" />
+  </div>
+  
   
 
