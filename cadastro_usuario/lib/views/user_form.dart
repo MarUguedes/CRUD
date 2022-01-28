@@ -44,7 +44,7 @@ class UserForm extends StatelessWidget {
         ],
       ),
       body: Padding(
-        padding: EdgeInsets.all(15),
+        padding: EdgeInsets.all(10),
         child: Form(
             key: _form,
             child: Column(
@@ -57,7 +57,7 @@ class UserForm extends StatelessWidget {
                       return 'Insira um nome válido';
                     }
                     if (value.trim().length < 3) {
-                      return 'Nome muito pequeno. Mínimo 3 letras';
+                      return ' Mínimo 3 letras';
                     }
                   },
                   onSaved: (value) => _formData['name'] = value!,
