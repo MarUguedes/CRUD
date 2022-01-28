@@ -5,29 +5,30 @@ const DUMMY_USERS = {
   '1': const User(
       id: '1',
       name: 'Jinx',
-      number: '(71) 995994949',
+      number: '71995994949',
       email: 'jinx@arcane.com',
       urlAvatar:'https://i.pinimg.com/564x/c0/d8/57/c0d857bc520d6119057455ae960648c2.jpg'),
   // ignore: unnecessary_const
   '2': const User(
       id: '2',
       name: 'Violet',
-      number: '(71) 99994949',
+      number: '7199994949',
       email: 'violet@arcane.com',
       urlAvatar: 'http://pm1.narvii.com/8127/eec48c03097f84d2465160768a46fd51c64bbf4cr1-400-400v2_uhq.jpg'),
-  // ignore: unnecessary_const
-  '3': const User(
+     // ignore: unnecessary_const
+    '3': const User(
       id: '3',
       name: 'Caitlyn',
-      number: '(71) 998994949',
+      number: '71998994949',
       email: 'cait@arcane.com',
       urlAvatar: 'https://i.pinimg.com/564x/fd/1a/3b/fd1a3b212b3d9fab44657fa9a1698841.jpg'),
       // ignore: unnecessary_const
       '4': const User(
       id: '4',
       name: 'Ekko',
-      number: '(71) 997994949',
+      number: '71997994949',
       email: 'Ekko@arcane.com',
       urlAvatar: 'https://i.pinimg.com/564x/1d/d7/75/1dd775d4716c0349767bb0bab90f96f5.jpg'
       ),
+      
 };

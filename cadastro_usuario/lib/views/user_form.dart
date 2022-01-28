@@ -43,7 +43,7 @@ class UserForm extends StatelessWidget {
               icon: Icon(Icons.save))
         ],
       ),
-      body: Padding(
+      body: SingleChildScrollView(child:  Padding(
         padding: EdgeInsets.all(10),
         child: Form(
             key: _form,
@@ -93,6 +93,7 @@ class UserForm extends StatelessWidget {
               ],
             )),
       ),
+      )
     );
   }
 }
