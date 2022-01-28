@@ -1,7 +1,7 @@
 # Cadastro de usuário
 
-Essa é uma aplicação feita em flutter para armazenar dados cadastrais de usuário como nome e email e que pode ser personalizada com avatar. 
-O app foi feito com o apoio do curso Cod3r, para explorar os conceitos CRUD de lista.
+Essa é uma aplicação feita em flutter para armazenar dados cadastrais de usuário como nome, e-mail e telefone e que pode ser personalizada com avatar. 
+O app foi feito com inspiração no curso da Cod3r, para explorar os conceitos CRUD de lista.
 
 <div align="center"><img src="https://user-images.githubusercontent.com/88554358/151474990-6f101f29-3aa0-4b66-a0a0-c5a925c5f94c.jpeg" width="650px" />
   </div>
