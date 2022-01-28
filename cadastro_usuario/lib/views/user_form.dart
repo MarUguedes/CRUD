@@ -10,20 +10,20 @@ class UserForm extends StatelessWidget {
   final Map<String, String> _formData = {};
 
   void _loadFormdata(User user) {
-    if( user!=null){
+    if (user != null) {
       _formData['id'] = user.id!;
-      _formData['name']=user.name;
-      _formData['email']=user.email;
-      _formData['avatar']=user.urlAvatar;
+      _formData['name'] = user.name;
+      _formData['number'] = user.number;
+      _formData['email'] = user.email;
+      _formData['avatar'] = user.urlAvatar;
     }
-    
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Formulário de Usuário"),
+        title: Text("Formulário"),
         actions: <Widget>[
           IconButton(
               onPressed: () {
@@ -33,6 +33,7 @@ class UserForm extends StatelessWidget {
                   Provider.of<Users>(context, listen: false).put(User(
                     id: _formData['id'],
                     name: _formData['name']!,
+                    number: _formData['number']!,
                     email: _formData['email']!,
                     urlAvatar: _formData['urlAvatar']!,
                   ));
@@ -60,6 +61,19 @@ class UserForm extends StatelessWidget {
                     }
                   },
                   onSaved: (value) => _formData['name'] = value!,
+                ),
+                TextFormField(
+                  initialValue: _formData['number'],
+                  decoration: InputDecoration(labelText: 'Celular'),
+                  onSaved: (value) => _formData['number'] = value!,
+                  validator: (value) {
+                    if (value == null || value.isEmpty) {
+                      return 'Insira um número';
+                    }
+                    if (value.trim().length < 11) {
+                      return 'Número inválido';
+                    }
+                  },
                 ),
                 TextFormField(
                   initialValue: _formData['email'],

@@ -20,7 +20,7 @@ class UserTile extends StatelessWidget {
     return ListTile(
       leading: avatar,
       title: Text(user.name),
-      subtitle: Text(user.email),
+      subtitle: Text('${user.number} ${user.email}'),
       trailing: Container(
         width: 100,
         child: Row(

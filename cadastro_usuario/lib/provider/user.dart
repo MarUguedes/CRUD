@@ -30,6 +30,7 @@ class Users with ChangeNotifier {
           user.id!,
           (_) => User(
                 name: user.name,
+                number: user.number,
                 email: user.email,
                 urlAvatar: user.urlAvatar,
               )); //maybe a mistake
@@ -41,6 +42,7 @@ class Users with ChangeNotifier {
           () => User(
                 id: id,
                 name: user.name,
+                number: user.number,
                 email: user.email,
                 urlAvatar: user.urlAvatar,
               ));
