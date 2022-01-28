@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         title: 'Flutter ',
         theme: ThemeData(
-          primarySwatch: Colors.green,
+          primarySwatch: Colors.purple,
         ),
       
         routes: {

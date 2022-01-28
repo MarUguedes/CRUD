@@ -5,13 +5,13 @@ const DUMMY_USERS = {
   '1': const User(
       id: '1',
       name: 'Jinx',
-      email: 'jinx@arcane.com.br',
+      email: 'jinx@arcane.com',
       urlAvatar:'https://i.pinimg.com/564x/c0/d8/57/c0d857bc520d6119057455ae960648c2.jpg'),
   // ignore: unnecessary_const
   '2': const User(
       id: '2',
       name: 'Violet',
-      email: 'violet@arcane.com.br',
+      email: 'violet@arcane.com',
       urlAvatar: 'http://pm1.narvii.com/8127/eec48c03097f84d2465160768a46fd51c64bbf4cr1-400-400v2_uhq.jpg'),
   // ignore: unnecessary_const
   '3': const User(
